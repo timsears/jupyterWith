@@ -32,7 +32,7 @@ let
       # PYTHONPATH setup for JupyterLab
       pythonPath = python3.makePythonPath [
         python3.ipykernel
-        python3.jupyter_contrib_core
+        # python3.jupyter_contrib_core
         python3.jupyter_nbextensions_configurator
         python3.tornado
       ];
